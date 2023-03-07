@@ -125,7 +125,7 @@ Then("I should see {string} in Results", async function (this: OurWorld, product
     let amazonHeaderSubTodaysDeals: AmazonHeaderSubTodaysDeals = new AmazonHeaderSubTodaysDeals(this.page);
     this.dictionary.set('AmazonHeaderSubTodaysDeals', amazonHeaderSubTodaysDeals);
 
-    let productsArray: string[] = product.split(',');
+    let productsArray: string[] = product.split('+');
 
     //multiple asserts
     let assertErrors: string[] = [];
