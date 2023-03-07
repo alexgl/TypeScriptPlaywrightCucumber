@@ -18,29 +18,29 @@ Feature: Amazon Product Search Example
         | prime | books | priceUnder25 | Weyward: A Novel+Daisy Jones & The Six: A Novel+My Book About Me |
         | prime | books | price25to50 | NRSVue, Holy Bible with Apocrypha, Leathersoft, Brown, Comfort Print+KJV, Thompson Chain-Reference Bible, Handy Size, Leathersoft, Brown, Red Letter |
         | prime | books | price50to100 | Gravitational Waves: Volume 2: Astrophysics and Cosmology+Managing Enterprise Projects: Using Project Online and Microsoft Project Server 2019 |
-        # | prime | electronics | priceUnder25 | dalofthedaygoeshere |
-        # | prime | electronics | price25to50 | dalofthedaygoeshere |
-        # | prime | electronics | price50to100 | dalofthedaygoeshere |
-        # | prime | fashion | priceUnder25 | dalofthedaygoeshere |
-        # | prime | fashion | price25to50 | dalofthedaygoeshere |
-        # | prime | fashion | price50to100 | dalofthedaygoeshere |
-        # | early | fashion | priceUnder25 | dalofthedaygoeshere |
-        # | early | fashion | price25to50 | dalofthedaygoeshere |
-        # | early | fashion | price50to100 | dalofthedaygoeshere |
-        # | early | books | priceUnder25 | dalofthedaygoeshere |
-        # | early | books | price25to50 | dalofthedaygoeshere |
-        # | early | books | price50to100 | dalofthedaygoeshere |
-        # | early | electronics | priceUnder25 | dalofthedaygoeshere |
-        # | early | electronics | price25to50 | dalofthedaygoeshere |
-        # | early | electronics | price50to100 | dalofthedaygoeshere |
-        # | exclusive | fashion | priceUnder25 | dalofthedaygoeshere |
-        # | exclusive | fashion | price25to50 | dalofthedaygoeshere |
-        # | exclusive | fashion | price50to100 | dalofthedaygoeshere |
-        # | exclusive | books | priceUnder25 | dalofthedaygoeshere |
-        # | exclusive | books | price25to50 | dalofthedaygoeshere |
-        # | exclusive | books | price50to100 | dalofthedaygoeshere |
-        # | exclusive | electronics | priceUnder25 | dalofthedaygoeshere |
-        # | exclusive | electronics | price25to50 | dalofthedaygoeshere |
-        # | exclusive | electronics | price50to100 | dalofthedaygoeshere |
+        # | prime | electronics | priceUnder25 | Deal of the day products go here, change every 15 minutes or so! |
+        # | prime | electronics | price25to50 | Deal of the day products go here, change every 15 minutes or so! |
+        # | prime | electronics | price50to100 | Deal of the day products go here, change every 15 minutes or so! |
+        # | prime | fashion | priceUnder25 | Deal of the day products go here, change every 15 minutes or so! |
+        # | prime | fashion | price25to50 | Deal of the day products go here, change every 15 minutes or so! |
+        # | prime | fashion | price50to100 | Deal of the day products go here, change every 15 minutes or so! |
+        # | early | fashion | priceUnder25 | Deal of the day products go here, change every 15 minutes or so! |
+        # | early | fashion | price25to50 | Deal of the day products go here, change every 15 minutes or so! |
+        # | early | fashion | price50to100 | Deal of the day products go here, change every 15 minutes or so! |
+        # | early | books | priceUnder25 | Deal of the day products go here, change every 15 minutes or so! |
+        # | early | books | price25to50 | Deal of the day products go here, change every 15 minutes or so! |
+        # | early | books | price50to100 | Deal of the day products go here, change every 15 minutes or so! |
+        # | early | electronics | priceUnder25 | Deal of the day products go here, change every 15 minutes or so! |
+        # | early | electronics | price25to50 | Deal of the day products go here, change every 15 minutes or so! |
+        # | early | electronics | price50to100 | Deal of the day products go here, change every 15 minutes or so! |
+        # | exclusive | fashion | priceUnder25 | Deal of the day products go here, change every 15 minutes or so! |
+        # | exclusive | fashion | price25to50 | Deal of the day products go here, change every 15 minutes or so! |
+        # | exclusive | fashion | price50to100 | Deal of the day products go here, change every 15 minutes or so! |
+        # | exclusive | books | priceUnder25 | Deal of the day products go here, change every 15 minutes or so! |
+        # | exclusive | books | price25to50 | Deal of the day products go here, change every 15 minutes or so! |
+        # | exclusive | books | price50to100 | Deal of the day products go here, change every 15 minutes or so! |
+        # | exclusive | electronics | priceUnder25 | Deal of the day products go here, change every 15 minutes or so! |
+        # | exclusive | electronics | price25to50 | Deal of the day products go here, change every 15 minutes or so! |
+        # | exclusive | electronics | price50to100 | Deal of the day products go here, change every 15 minutes or so! |
 
 
