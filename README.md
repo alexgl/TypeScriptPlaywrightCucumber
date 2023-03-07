@@ -14,3 +14,6 @@ npm test
 
 
 ###### VS Code debugger compatibility is in "work in progress".
+
+### Example output
+![Console output](https://raw.githubusercontent.com/alexgl/TypeScriptPlaywrightCucumber/develop/example-output.PNG)
