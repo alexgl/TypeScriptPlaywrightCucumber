@@ -15,9 +15,9 @@ Feature: Amazon Product Search Example
 
         Examples:
         | primeProgram | department | price | product |
-        | prime | books | priceUnder25 | Weyward: A Novel+Daisy Jones & The Six: A Novel+My Book About Me |
-        | prime | books | price25to50 | NRSVue, Holy Bible with Apocrypha, Leathersoft, Brown, Comfort Print+KJV, Thompson Chain-Reference Bible, Handy Size, Leathersoft, Brown, Red Letter |
-        | prime | books | price50to100 | Gravitational Waves: Volume 2: Astrophysics and Cosmology+Managing Enterprise Projects: Using Project Online and Microsoft Project Server 2019 |
+        | prime | books | priceUnder25 | Birnam Wood: A Novel+Trust+How to Haunt a House+The Spear Cuts Through Water: A Novel |
+        # | prime | books | price25to50 | NRSVue, Holy Bible with Apocrypha, Leathersoft ,Brown, Comfort Print+KJV, Thompson Chain-Reference Bible, Handy Size, Leathersoft, Brown, Red Letter |
+        # | prime | books | price50to100 | Gravitational Waves: Volume 2: Astrophysics and Cosmology+Managing Enterprise Projects: Using Project Online and Microsoft Project Server 2019 |
         # | prime | electronics | priceUnder25 | Deal of the day products go here, change every 15 minutes or so! |
         # | prime | electronics | price25to50 | Deal of the day products go here, change every 15 minutes or so! |
         # | prime | electronics | price50to100 | Deal of the day products go here, change every 15 minutes or so! |

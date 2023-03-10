@@ -130,16 +130,16 @@ Then("I should see {string} in Results", async function (this: OurWorld, product
     //multiple asserts
     let assertErrors: string[] = [];
     let assertsFailed: boolean = false;
-
+    
     for(var index in productsArray)
     { 
-        const isProductPresent: boolean = await amazonHeaderSubTodaysDeals.getResultsEntryByText(productsArray[index]).isVisible();
+        const isProductPresent: boolean = await amazonHeaderSubTodaysDeals.verifyResultsByTextPresentOnPage(productsArray[index]);
         if(!isProductPresent) {
             assertsFailed = true;
             assertErrors.push(`Product titles ${productsArray[index]} was NOT FOUND in results.`);
         }
     }
 
-    //evaluate all asserts
+    // //evaluate all asserts
     assert.equal(assertsFailed, false, assertErrors.join("; "));
 });

@@ -33,18 +33,25 @@ export class AmazonHeaderSubTodaysDeals extends BasePage {
     locatorsMap.set('price50to100', this.page.locator("//span[@aria-label='Price filter']/.//span[text()='$50 to $100']/.."));
 
     //results
-    //
     locatorsMap.set('resultsDealsGrid', this.page.locator("//div[@aria-label='Deals grid']"));
 
     return locatorsMap;
   }
 
   getResultsEntryByText(title:string): Locator {
-    console.log(`Log: locator string is ->//div[@aria-label='Deals grid']/.//div[text()='${title}']<-`)
     return this.page.locator(`//div[@aria-label='Deals grid']/.//div[text()='${title}']`);
   }
 
   async verifyResultsByTextPresentOnPage(title:string): Promise<boolean> {
-    return await this.getResultsEntryByText(title).isVisible();
+    const titleTile: Locator = this.getResultsEntryByText(title);
+    try{
+      await titleTile.focus();
+
+      return await titleTile.isVisible();
+    }
+    catch (e:any) {
+      return false;
+    }
+    
   }
 }
